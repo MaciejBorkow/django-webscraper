@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webscraper</title>
+</head>
+<body>
+<h5><a href="{% url 'webscraper:index' %}">Home page - index</a></h5>
+<hr>
+{% if scraped_url_list %}
+    <h3>Scraped URLs list:</h3>
+    <ul>
+    {% for scraped_url in scraped_url_list %}
+        <li><a href="{% url 'webscraper:detail' scraped_url.id %}">{{ scraped_url.url }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No scraped URL are available.</p>
+{% endif %}
+
+<form action="{% url 'webscraper:url_form' %}" method="post">
+    {% csrf_token %}
+URL: <input type="text" name="url"><br>
+    {% for content in content_type_list %}
+    <input type="checkbox" name="content_type" id="content_type{{ forloop.counter }}" value="{{ content.id }}">
+    <label for="content_type{{ forloop.counter }}">{{ content.name }}</label><br>
+    {% endfor %}
+<input type="submit" value="scrap">
+</form>
+
+
+
+</body>
+</html>

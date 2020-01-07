@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scraped URL detail</title>
+</head>
+<body>
+    <h5><a href="{% url 'webscraper:index' %}">Home page - index</a></h5>
+    <hr>
+    <h3>{{ scraped_url.url }}</h3>
+
+<table style="width:100%">
+  <tr>
+    <th>celery task id</th>
+    <th>scraped data type</th>
+    <th>date</th>
+    <th>path</th>
+  </tr>
+    <tr>
+    <td>{{ scraped_url.task }}</td>
+    <td>{{ scraped_url.content_type.all }}</td>
+    <td>{{ scraped_url.date_init }}</td>
+    <td>{{ scraped_url.path }}</td>
+
+  </tr>
+
+</table>
+<hr>
+<p>Statuses description:</p>
+<li>not started - task added to queue but not executed</li>
+<li>in progress - task execution still ongoing</li>
+<li>finished - task execution completed successfully </li>
+</body>
+</html>
