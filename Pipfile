@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==3.0"
+pipenv = "*"
+requests = "*"
+bs4 = "*"
+ipython = "*"
+djangorestframework = "*"
+celery = "*"
+redis = "*"
+django-widget-tweaks = "*"
+
+[requires]
+python_version = "3.7"

@@ -1,0 +1,6 @@
+.idea/*
+.venv/*
+tmp/*
+**/__pycache__
+scraperservice/scraped_url/*
+scraperservice/db.sqlite3
