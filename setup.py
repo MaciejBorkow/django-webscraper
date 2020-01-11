@@ -7,5 +7,11 @@ setup(
       python_requires='~=3.7',
       install_requires=('Django>=3.0', 'requests', 'bs4', 'djangorestframework', 'celery', 'redis'),
       packages=['webscraper'],
-      exclude_package_data=['.gitignore', 'Pipfile', 'Pipfile.lock', 'README.md', 'example'],
+      exclude_package_data={
+            '': '.gitignore',
+            '': 'Pipfile',
+            '': 'Pipfile.lock',
+            '': 'README.md',
+            '': 'example'
+      }
 )
