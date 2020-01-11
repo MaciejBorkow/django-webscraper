@@ -1,7 +1,2 @@
-exclude README.md
-exclude Pipfile
-exclude Pipfile.lock
-exclude .gitignore
-exclude setup.py
-recursive-exclude .git/*
-recursive-exclude example/*
+recursive-include webscraper/templates *
+include README.md

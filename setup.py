@@ -7,4 +7,5 @@ setup(
       python_requires='~=3.7',
       install_requires=('Django>=3.0', 'requests', 'bs4', 'djangorestframework', 'celery', 'redis'),
       packages=find_packages(),
+      include_package_data = True
 )
