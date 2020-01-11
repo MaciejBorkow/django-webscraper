@@ -4,3 +4,4 @@
 **/__pycache__
 **/scraped_url/*
 *.sqlite3
+webscraper.egg-info/*
