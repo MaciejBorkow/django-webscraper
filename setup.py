@@ -6,6 +6,9 @@ setup(
       author_email='borkowski.mac@gmail.com',
       python_requires='~=3.7',
       install_requires=('Django>=3.0', 'requests', 'bs4', 'djangorestframework', 'celery', 'redis'),
-      packages=find_packages(),
-      package_data={'':['*.html', '*.csv']},
+      packages=find_namespace_packages(),
+      package_data={
+            'webscraper': ['templates/webscraper/*.html']
+      }
+      # package_data={'webscraper':['*.html']},
 )

@@ -16,6 +16,7 @@ bs4 = "*"
 djangorestframework = "*"
 celery = "*"
 redis = "*"
+wheel = "*"
 
 [requires]
 python_version = "3.7"
