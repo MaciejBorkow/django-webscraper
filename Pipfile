@@ -7,16 +7,15 @@ verify_ssl = true
 ipython = "*"
 setuptools = "*"
 wheel = "*"
+pipenv = "*"
 
 [packages]
-pipenv = "*"
 django = ">=3.0"
 requests = "*"
 bs4 = "*"
 djangorestframework = "*"
 celery = "*"
 redis = "*"
-wheel = "*"
 
 [requires]
 python_version = "3.7"
