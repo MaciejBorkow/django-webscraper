@@ -8,6 +8,7 @@ ipython = "*"
 setuptools = "*"
 wheel = "*"
 pipenv = "*"
+pipenv-setup = "*"
 
 [packages]
 django = ">=3.0"
