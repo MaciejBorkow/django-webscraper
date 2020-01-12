@@ -6,4 +6,6 @@
 *.sqlite3
 *.rdb
 webscraper.egg-info/*
-
+build/*
+dist/*
+webscraper.egg-info/*
