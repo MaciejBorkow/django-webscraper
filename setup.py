@@ -71,7 +71,7 @@ setup(
         "celery==4.4.0",
         "certifi==2019.11.28",
         "chardet==3.0.4",
-        "django==3.0.2",
+        "django==3.1.6",
         "djangorestframework==3.11.0",
         "idna==2.8",
         "importlib-metadata==1.4.0; python_version < '3.8'",
