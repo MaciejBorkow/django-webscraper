@@ -72,7 +72,7 @@ setup(
         "certifi==2019.11.28",
         "chardet==3.0.4",
         "django==3.0.2",
-        "djangorestframework==3.11.0",
+        "djangorestframework==3.11.2",
         "idna==2.8",
         "importlib-metadata==1.4.0; python_version < '3.8'",
         "kombu==4.6.7",
