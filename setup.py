@@ -36,7 +36,7 @@ setup(
             "plette[validation]==0.2.3",
             "prompt-toolkit==3.0.2",
             "ptyprocess==0.6.0",
-            "pygments==2.5.2",
+            "pygments==2.7.4",
             "pyparsing==2.4.6",
             "regex==2020.1.8",
             "requests==2.22.0",
