@@ -68,7 +68,7 @@ setup(
         "beautifulsoup4==4.8.2",
         "billiard==3.6.1.0",
         "bs4==0.0.1",
-        "celery==4.4.0",
+        "celery==5.2.2",
         "certifi==2019.11.28",
         "chardet==3.0.4",
         "django==3.0.2",
