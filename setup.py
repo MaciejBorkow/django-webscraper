@@ -30,7 +30,7 @@ setup(
             "pexpect==4.7.0; sys_platform != 'win32'",
             "pickleshare==0.7.5",
             "pip-shims==0.4.0",
-            "pipenv==2018.11.26",
+            "pipenv==2022.1.8",
             "pipenv-setup==2.2.5",
             "pipfile==0.0.2",
             "plette[validation]==0.2.3",
