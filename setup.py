@@ -18,7 +18,7 @@ setup(
             "first==2.0.2",
             "idna==2.8",
             "importlib-metadata==1.4.0; python_version < '3.8'",
-            "ipython==7.11.1",
+            "ipython==7.16.3",
             "ipython-genutils==0.2.0",
             "jedi==0.15.2",
             "more-itertools==8.1.0",
