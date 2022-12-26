@@ -52,7 +52,7 @@ setup(
             "virtualenv-clone==0.5.3",
             "vistir==0.4.3",
             "wcwidth==0.1.8",
-            "wheel==0.33.6",
+            "wheel==0.38.1",
             "zipp==0.6.0",
         ]
     },
